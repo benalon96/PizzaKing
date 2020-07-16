@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blue_view2"
+    android:fadeScrollbars="false">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+
+
+        <TextView
+
+            android:id="@+id/textWelcome3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/white_button"
+            android:fontFamily="@font/anonymous_pro"
+            android:gravity="center"
+            android:padding="30dp"
+            android:layout_margin="20dp"
+            android:text="@string/text_welcome3"
+            android:textColor="#fff"
+            android:textSize="30sp"
+            android:textStyle="bold">
+        </TextView>
+
+
+        <CheckBox
+            android:id="@+id/checkbox1"
+            android:layout_width="130sp"
+            android:layout_height="50sp"
+            android:layout_below="@id/textWelcome3"
+            android:layout_marginEnd="30sp"
+            android:layout_marginStart="20sp"
+            android:layout_marginTop="41dp"
+            android:layout_marginBottom="50sp"
+            android:background="@drawable/chaeck_box_view"
+            android:clickable="true"
+            android:fontFamily="@font/anonymous_pro"
+            android:text="@string/Home_box"
+            android:textAllCaps="false"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/checkbox2"
+            android:layout_width="130sp"
+            android:layout_height="50sp"
+            android:layout_below="@id/textWelcome3"
+            android:layout_toEndOf="@id/checkbox1"
+            android:layout_marginStart="20sp"
+
+            android:layout_marginTop="41dp"
+            android:layout_marginBottom="50sp"
+            android:background="@drawable/chaeck_box_view"
+            android:clickable="true"
+            android:fontFamily="@font/anonymous_pro"
+            android:text="@string/Take_box"
+            android:textAllCaps="false"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"  />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/layout3"
+            android:visibility="gone"
+
+            android:layout_below="@+id/checkbox1">
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:textColor="#0C0B0B"
+                android:background="@drawable/chaeck_box_view"
+                android:text="@string/city_edit"
+                android:gravity="center"
+                android:layout_margin="20sp"
+                android:id="@+id/text4">
+
+            </TextView>
+            <EditText
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_toEndOf="@+id/text4"
+                android:background="@drawable/edit_text_view"
+                android:gravity="center"
+                android:textColor="#0C0B0B"
+                android:layout_margin="20sp">
+
+            </EditText>
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_below="@id/text4"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:textColor="#0C0B0B"
+                android:background="@drawable/chaeck_box_view"
+                android:text="@string/address_edit"
+                android:layout_margin="20sp"
+                android:gravity="center"
+                android:id="@+id/text5">
+
+            </TextView>
+            <EditText
+                android:gravity="center"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_toEndOf="@+id/text5"
+                android:layout_below="@id/text4"
+                android:background="@drawable/edit_text_view"
+                android:textColor="#0C0B0B"
+                android:layout_margin="20sp">
+
+            </EditText>
+        </RelativeLayout>
+
+
+        <Button
+            android:id="@+id/btn5"
+            style="bold"
+            android:layout_width="150sp"
+            android:layout_height="50sp"
+            android:layout_below="@id/layout3"
+            android:layout_margin="20sp"
+            android:background="@drawable/btn_back"
+            android:fontFamily="@font/anonymous_pro"
+            android:onClick="back"
+            android:text="@string/back_btn"
+            android:textAllCaps="false"
+            android:textColor="#fff">
+
+        </Button>
+
+        <Button
+            android:id="@+id/btn6"
+            style="bold"
+            android:layout_width="150sp"
+            android:layout_height="50sp"
+            android:layout_below="@id/layout3"
+
+            android:layout_margin="20sp"
+            android:layout_toEndOf="@id/btn5"
+            android:background="@drawable/white_button"
+            android:fontFamily="@font/anonymous_pro"
+            android:text="@string/end_btn"
+            android:onClick="end_button"
+            android:textAllCaps="false"
+            android:textColor="#fff">
+
+        </Button>
+
+
+    </RelativeLayout>
+
+</ScrollView>

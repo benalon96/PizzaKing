@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blue_view2"
+    android:fadeScrollbars="false"
+xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+    android:orientation="vertical">
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="30dp"
+        android:text="@string/text_welcome"
+        android:textColor="#fff"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:background="@drawable/white_button"
+
+        android:fontFamily="@font/anonymous_pro"
+        android:id="@+id/textWelcome">
+    </TextView>
+
+    <ImageView
+        android:id="@+id/image1"
+
+        style="@style/Widget.AppCompat.ImageButton"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_margin="40dp"
+        android:layout_weight="2"
+        android:background="@drawable/pizzapizza"
+        android:contentDescription="@string/first_bth"
+        android:padding="20dp"
+        android:scaleType="centerCrop" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:background="@drawable/white_button"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:fontFamily="@font/anonymous_pro"
+        android:text="@string/first_bth">
+    </Button>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_margin="30dp"
+        android:layout_weight="2"
+        android:background="@drawable/pizzapizza1"
+        android:padding="20dp"
+        android:scaleType="centerCrop"
+        android:id="@+id/image2"
+        android:contentDescription="@string/second_bth"
+        />
+
+    <Button
+        android:id="@+id/btn2"
+        android:background="@drawable/white_button"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:fontFamily="@font/anonymous_pro"
+        android:text="@string/second_bth">
+    </Button>
+
+    <ImageView
+
+        android:padding="20dp"
+        android:layout_weight="2"
+        android:layout_height="250dp"
+        android:layout_margin="30dp"
+        android:layout_width="match_parent"
+        android:background="@drawable/pizzapizza2"
+        android:id="@+id/image3"
+        android:contentDescription="@string/third_bth"/>
+
+    <Button
+        android:id="@+id/btn3"
+        android:background="@drawable/white_button"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:fontFamily="@font/anonymous_pro"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:text="@string/third_bth">
+    </Button>
+
+</LinearLayout>
+
+</ScrollView>

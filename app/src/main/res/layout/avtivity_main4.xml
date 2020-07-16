@@ -1,0 +1,34 @@
+
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blue_view2"
+    android:fadeScrollbars="false">
+
+<TableRow
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/relative_layout2"
+    android:padding="20dp">
+    <ImageView
+
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_margin="50dp"
+        android:layout_weight="2"
+        android:src="@drawable/pizzapizza"
+        android:scaleType="centerCrop"
+        android:id="@+id/image2_main1"
+        android:contentDescription="@string/second_bth">
+
+    </ImageView>
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+   </TextView>
+
+    </TableRow>
+    </ScrollView>

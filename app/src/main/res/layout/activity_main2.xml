@@ -1,0 +1,289 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blue_view2"
+    android:fadeScrollbars="false">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relative_layout2"
+        android:padding="20dp">
+
+
+        <TextView
+
+            android:id="@+id/textWelcome2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/white_button"
+            android:fontFamily="@font/anonymous_pro"
+            android:gravity="center"
+            android:padding="30dp"
+            android:text="@string/text_welcome2"
+            android:textColor="#fff"
+            android:textSize="30sp"
+            android:textStyle="bold">
+        </TextView>
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/textWelcome2"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="50dp"
+            android:background="@drawable/chaeck_box_view"
+            android:gravity="center"
+            android:hint="@string/edit_text1"
+            android:inputType="number"
+            android:textColor="@color/colorAccent"
+            android:textColorHint="@color/colorAccent">
+
+        </EditText>
+
+
+
+            <Button
+                android:id="@+id/btn4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/editText1"
+                android:layout_margin="30sp"
+                android:background="@drawable/white_button"
+                android:fontFamily="@font/anonymous_pro"
+                android:padding="20dp"
+                android:text="@string/bth_4"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:textStyle="bold">
+
+            </Button>
+
+        <LinearLayout
+            android:id="@+id/bth_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/btn4"
+            android:layout_marginTop="29dp"
+            android:orientation="vertical">
+
+<!--            <Spinner-->
+<!--                android:id="@+id/spinner"-->
+<!--                android:layout_width="200sp"-->
+<!--                android:layout_height="40dp"-->
+<!--                android:layout_margin="20sp"-->
+<!--                android:entries="@array/topping"-->
+<!--                android:background="@drawable/spinner_view"-->
+<!--                android:visibility="gone">-->
+
+<!--            </Spinner>-->
+<!--            <TextView-->
+<!--                style="bold"-->
+<!--                android:layout_width="100sp"-->
+
+<!--                android:layout_height="40dp"-->
+<!--                android:layout_alignBaseline="@id/spinner"-->
+<!--                android:layout_margin="20sp"-->
+<!--                android:layout_toEndOf="@id/spinner"-->
+<!--                android:background="@drawable/white_button"-->
+<!--                android:fontFamily="@font/anonymous_pro"-->
+<!--                android:text="pizza"-->
+<!--                android:textColor="#fff"-->
+<!--                android:textSize="30sp"-->
+<!--                android:visibility="gone"-->
+<!--                >-->
+
+<!--            </TextView>-->
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/bth_layout"
+            android:background="@drawable/btn_view"
+            android:layout_margin="30dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginStart="20dp"
+            android:id="@+id/relative_layout3">
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_margin="20dp"
+
+                android:src="@drawable/pizzapizza"
+                android:scaleType="centerCrop"
+                android:id="@+id/image2_main1"
+                android:contentDescription="@string/second_bth"
+                />
+
+
+            <TextView
+                android:layout_below="@+id/image2_main1"
+                android:id="@+id/text1_main"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:height="30dp"
+                android:text="@string/select_text"
+                android:fontFamily="@font/anonymous_pro"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:layout_marginBottom="20sp"
+                android:layout_marginStart="20sp"
+                android:textStyle="bold"
+                                        >
+
+            </TextView>
+            <TextView
+
+                android:layout_below="@+id/text1_main"
+                android:id="@+id/text2_main"
+                android:layout_width="200dp"
+                android:layout_height="20dp"
+                android:height="30dp"
+                android:text="@string/numoftoppings_text"
+                android:fontFamily="@font/anonymous_pro"
+                android:textColor="#fff"
+                android:textSize="15sp"
+                android:layout_marginBottom="20sp"
+                android:layout_marginStart="20sp"
+                android:textStyle="bold"
+                >
+
+            </TextView>
+
+        <TextView
+
+            android:layout_alignBaseline="@id/text2_main"
+            android:layout_toEndOf="@id/text2_main"
+            android:id="@+id/text4_main"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:height="30dp"
+            android:text="@string/zero_text"
+            android:fontFamily="@font/anonymous_pro"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            android:layout_marginBottom="20sp"
+            android:layout_marginStart="10dp"
+            android:textStyle="bold"
+            >
+
+        </TextView>
+            <TextView
+
+                android:layout_below="@+id/text4_main"
+                android:id="@+id/text5_main"
+                android:layout_width="200dp"
+                android:layout_height="20dp"
+                android:height="30dp"
+                android:text="@string/number_of_pizza"
+                android:fontFamily="@font/anonymous_pro"
+                android:textColor="#fff"
+                android:textSize="15sp"
+                android:layout_marginBottom="30sp"
+                android:layout_marginStart="20sp"
+                android:textStyle="bold"
+                >
+
+            </TextView>
+
+            <TextView
+
+                android:layout_alignBaseline="@id/text5_main"
+                android:layout_toEndOf="@id/text5_main"
+                android:id="@+id/text6_main"
+                android:layout_width="200dp"
+                android:layout_height="20dp"
+                android:layout_below="@+id/text4_main"
+                android:height="30dp"
+                android:text="1"
+                android:fontFamily="@font/anonymous_pro"
+                android:textColor="#fff"
+                android:textSize="15sp"
+                android:layout_marginBottom="20sp"
+                android:layout_marginStart="10dp"
+                android:textStyle="bold">
+
+            </TextView>
+            <TextView
+
+                android:layout_below="@+id/text5_main"
+                android:id="@+id/text7_main"
+                android:layout_width="200dp"
+                android:layout_height="20dp"
+                android:height="30dp"
+                android:text="@string/totelprice_text"
+                android:fontFamily="@font/anonymous_pro"
+                android:textColor="#fff"
+                android:textSize="15sp"
+                android:layout_marginBottom="30sp"
+                android:layout_marginStart="20sp"
+                android:textStyle="bold"
+                >
+
+            </TextView>
+
+            <TextView
+
+                android:layout_alignBaseline="@id/text7_main"
+                android:layout_toEndOf="@id/text7_main"
+                android:id="@+id/text8_main"
+                android:layout_width="wrap_content"
+                android:layout_below="@+id/text4_main"
+                android:layout_height="wrap_content"
+                android:height="30dp"
+                android:text="@string/totalprice"
+                android:fontFamily="@font/anonymous_pro"
+                android:textColor="#fff"
+                android:textSize="15sp"
+                android:layout_marginBottom="20sp"
+                android:layout_marginStart="10dp"
+                android:textStyle="bold"
+                >
+            </TextView>
+
+        </RelativeLayout>
+
+
+
+            <Button
+                android:id="@+id/btn5"
+                style="bold"
+                android:layout_width="150sp"
+                android:layout_height="50sp"
+                android:layout_below="@id/relative_layout3"
+                android:layout_margin="20sp"
+                android:background="@drawable/btn_back"
+                android:fontFamily="@font/anonymous_pro"
+                android:onClick="back"
+                android:text="@string/back_btn"
+                android:textAllCaps="false"
+                android:textColor="#fff">
+
+            </Button>
+
+            <Button
+                android:id="@+id/btn6"
+                style="bold"
+                android:layout_width="150sp"
+                android:layout_height="50sp"
+                android:layout_below="@id/relative_layout3"
+                android:layout_margin="20sp"
+                android:layout_marginStart="60dp"
+                android:layout_toEndOf="@id/btn5"
+                android:background="@drawable/white_button"
+                android:fontFamily="@font/anonymous_pro"
+                android:onClick="continue1"
+                android:text="@string/continue_btn"
+                android:textAllCaps="false"
+                android:textColor="#fff">
+
+            </Button>
+        </RelativeLayout>
+
+
+
+</ScrollView>

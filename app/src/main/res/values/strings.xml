@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Pizzaking</string>
+    <string name="text_welcome">Welcome to pizzaking! what kind of pizza would you like to order?</string>
+    <string name="first_bth">Pizza margherita</string>
+    <string name="second_bth">Cheesy crust pizza</string>
+    <string name="third_bth">Gluten free pizza</string>
+    <string name="text_welcome2">How many toppings would you like on your pizza?</string>
+    <string name="bth_4">Finish</string>
+    <string name="edit_text1">Enter here</string>
+    <string-array name="topping">
+        <item>Topping</item>
+        <item>Olives</item>
+        <item>Mushroom</item>
+        <item>Tomatoes</item>
+        <item>Corn</item>
+        <item>Extra cheese</item>
+    </string-array>
+    <string name="continue_btn">Continue</string>
+    <string name="back_btn">Back</string>
+    <string name="Olives">Olives</string>
+    <string name="Mushroom">Mushroom</string>
+    <string name="Tomatoes">Tomatoes</string>
+    <string name="Cron">Cron</string>
+    <string name="Extracheese">Extra cheese</string>
+    <string name="address_edit">Address:</string>
+    <string name="city_edit">City:</string>
+    <string name="text_welcome3">Please choose your delivery prefernce:</string>
+    <string name="Home_box">Home delivery</string>
+    <string name="Take_box">Takeaway</string>
+    <string name="end_btn">End order</string>
+    <string name="select_text">You have selected</string>
+    <string name="numoftoppings_text">number of toppings:</string>
+    <string name="zero_text">0</string>
+    <string name="totelprice_text">Total price:</string>
+    <string name="number_of_pizza">amount of pizza:</string>
+    <string name="btn_select_pizza1">You have selected Pizza margherita</string>
+    <string name="btn_pizza2">You have selected Cheesy crust pizza</string>
+    <string name="btn_pizza3">You have selected Gluten free pizza</string>
+    <string name="totalprice">50</string>
+</resources>

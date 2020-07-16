@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pizzaking</string>
+    <string name="text_welcome">ברוך הבא למלך הפיצה איזה פיצה תרצה להזמין?</string>
+    <string name="first_bth">פיצה מרגריטה</string>
+    <string name="second_bth">פיצה צ\'יזי קראסט</string>
+    <string name="third_bth">פיצה ללא גלוטן</string>
+    <string name="text_welcome2">כמה תוספות תרצה על הפיצה שלך?</string>
+    <string name="bth_4">סיום</string>
+    <string name="edit_text1">רשום כאן</string>
+    <string name="continue_btn">המשך</string>
+    <string name="back_btn">חזור</string>
+    <string name="Olives">זיתים</string>
+    <string name="Mushroom">פטריות</string>
+    <string name="Tomatoes">עגבניות</string>
+    <string name="Cron">תירס</string>
+    <string name="Extracheese">אקסטרה גבינה</string>
+    <string-array name="topping">
+        <item>תוספת</item>
+        <item>זיתים</item>
+        <item>פטריות</item>
+        <item>עגבניות</item>
+        <item>תירס</item>
+        <item>אקסטרה גבינה</item>
+    </string-array>
+    <string name="address_edit">כתובת מגורים:</string>
+    <string name="city_edit">עיר:</string>
+    <string name="text_welcome3">אנא בחר את שיטת המשלוח:</string>
+    <string name="Home_box">משלוח עד הבית</string>
+    <string name="Take_box">איסוף עצמי</string>
+    <string name="end_btn">סיום הזמנה</string>
+    <string name="select_text">בחרת ב</string>
+    <string name="numoftoppings_text">מספר תוספות:</string>
+    <string name="zero_text">0</string>
+    <string name="totelprice_text">מחיר סך הכל:</string>
+    <string name="number_of_pizza">מספר מגשי פיצה:</string>
+    <string name="btn_select_pizza1">בחרת בפיצה מרגריטה</string>
+    <string name="btn_pizza2">בחרת בפיצה צ\'יזי קראסט</string>
+    <string name="btn_pizza3">בחרת בפיצה ללא גלוטן</string>
+    <string name="totalprice">50</string>
+</resources>
